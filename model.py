@@ -9,7 +9,7 @@ from dataset import KeywordDataset
 
 # Настройка логгера
 logging.basicConfig(
-    filename="logs/training.log",
+    filename="logs/logs.log",
     level=logging.INFO,
     format="%(asctime)s — %(levelname)s — %(message)s",
 )
